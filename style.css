@@ -700,20 +700,20 @@ footer i {
   }
 
   div.flex .project h3 a {
+    position: relative;
     padding: 10px;
     border-radius: 20%;
-    transform: .3s;
+    transition: .5s;
   }
 
   div.flex .project h3 a:hover {
-    padding: 7px;
-    border: 2px solid var(--brown);
-    box-shadow: 0 10px 30px -5px #000, 0 0 0 3px rgb(247, 208, 236), 0 0 0 5px var(--brown);
-    border-radius: 45%;
-  }
-
-  div.flex .project h3 a:hover i {
-    font-size: 30px;
+    padding: 10px;
+    border: 1px solid var(--brown);
+    border-radius: 40%;
+    box-shadow: 0 10px 30px -5px #000, 0 0 0 3px rgb(247, 208, 236), 0 0 0 4px var(--brown);
+    color: white;
+    background-color: rgb(210, 128, 187);
+    font-size: 25px;
   }
 
   h4 {
