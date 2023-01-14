@@ -43,6 +43,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 1px;
   background-color: rgba(225, 151, 204, 0.9);
+  z-index: 1;
 }
 
 div.main {
