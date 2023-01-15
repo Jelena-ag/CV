@@ -96,6 +96,14 @@ h3 {
   color: var(--brown);
 }
 
+.main div.insect .ladybug {
+  display: none;
+}
+
+.main div.insect img {
+  display: none;
+}
+
 div.flex {
   display: flex;
   flex-direction: column;
@@ -665,6 +673,30 @@ footer i {
 
   .main .contact ul li a:hover:before {
     right: 0;
+  }
+
+  .main div.insect .ladybug {
+    display: block;
+    position: relative;
+    left: 60%;
+    width: 40%;
+    margin: 0;
+  }
+
+  .main div.insect img {
+    display: block;
+    position: relative;
+    left: 95%;
+    width: 60px;
+    height: auto;
+    margin: 0 0 -26px 0;
+    animation: ladybug 10s 3 linear;
+  }
+
+  @keyframes ladybug {
+    100% {
+      left: 58%;
+    }
   }
 
   div.flex {
