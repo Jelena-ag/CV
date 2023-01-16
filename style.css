@@ -733,10 +733,60 @@ footer i {
   }
 
   div.flex .project h3 a {
-    position: relative;
     padding: 10px;
     border-radius: 20%;
     transition: .5s;
+    animation: shakes 2s 10 linear;
+  }
+
+  @keyframes shakes {
+    0% {
+      margin-left: 30px;
+    }
+
+    90% {
+      margin-left: 30px;
+    }
+
+    91% {
+      margin-left: 35px;
+    }
+
+    92% {
+      margin-left: 25px;
+    }
+
+    93% {
+      margin-left: 35px;
+    }
+
+    94% {
+      margin-left: 25px;
+    }
+
+    95% {
+      margin-left: 35px;
+    }
+
+    96% {
+      margin-left: 25px;
+    }
+
+    97% {
+      margin-left: 35px;
+    }
+
+    98% {
+      margin-left: 25px;
+    }
+
+    99% {
+      margin-left: 35px;
+    }
+
+    100% {
+      margin-left: 30px;
+    }
   }
 
   div.flex .project h3 a:hover {
