@@ -690,12 +690,28 @@ footer i {
     width: 60px;
     height: auto;
     margin: 0 0 -26px 0;
-    animation: ladybug 10s 3 linear;
+    animation: go 7s 5 linear ;
   }
 
-  @keyframes ladybug {
+  @keyframes go {
+    
+    60% {
+      left: 70%;
+      margin: 0 0 -26px 0;
+      transform: scale(1, 1);
+    }
+
+    60.01% {
+      left: 71%;
+      margin: 26px 0 -52px 0;
+      transform: scale(1, -1);
+    }
+
     100% {
       left: 58%;
+      margin: 26px 0 -52px 0;
+      transform: scale(1, -1);
+
     }
   }
 
@@ -736,7 +752,7 @@ footer i {
     padding: 10px;
     border-radius: 20%;
     transition: .5s;
-    animation: shakes 2s 10 linear;
+    animation: shakes 3s linear infinite;
   }
 
   @keyframes shakes {
