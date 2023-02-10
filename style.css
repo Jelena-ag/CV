@@ -690,11 +690,10 @@ footer i {
     width: 60px;
     height: auto;
     margin: 0 0 -26px 0;
-    animation: go 7s 5 linear ;
+    animation: run 5s 3 linear;
   }
 
-  @keyframes go {
-    
+  @keyframes run {
     60% {
       left: 70%;
       margin: 0 0 -26px 0;
