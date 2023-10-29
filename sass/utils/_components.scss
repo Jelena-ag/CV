@@ -1,5 +1,50 @@
+@use './colors';
+
 .wrapper {
 	margin: 0 auto;
 	max-width: 1200px;
 	width: 100%;
 }
+
+.section-left,
+.section-right {
+	padding-left: 2.5em;
+}
+
+.section-left {
+	color: colors.$whiteLeft;
+	background-color: colors.$bgcolorLeft;
+}
+
+.section-right {
+	padding-right: 2.5em;
+	color: colors.$blackRight;
+	background-color: colors.$bgcolorRight;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+}
+
+.grid-section {
+	display: grid;
+	grid-template-columns: 400px 800px;
+	grid-template-rows: 1fr;
+}
+
+.line-left,
+.line-right {
+	width: 100%;
+	height: 2px;
+	margin-bottom: 1em;
+}
+.line-left {
+	background-color: colors.$bgcolorRight;
+}
+.line-right {
+	background-color: colors.$bgcolorLeft;
+}
+
+

@@ -1,0 +1,26 @@
+.main {
+	&__name {
+		font-size: 2rem;
+		padding-top: 1em;
+	}
+
+	&__list {
+		padding-bottom: 1em;
+	}
+	&__list li {
+		padding-bottom: 1em;
+        font-size: 1.3rem;
+	}
+
+	&__title {
+		padding-bottom: 0.2em;
+		font-size: 1.5rem;
+	}
+	p {
+		padding-bottom: 0.4em;
+		font-size: 1.3rem;
+	}
+    .line-right-rodo{
+        margin-top: 10em;
+    }
+}
