@@ -1,9 +1,7 @@
-@use './utils/reset';
-
 .header {
 	&__img {
 		display: block;
-		margin: 5px auto;
+		margin: 3em auto 1em;
 		width: 150px;
 		clip-path: inset(0 0 0 0 round 0 55% 0 55%);
 	}
